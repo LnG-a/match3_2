@@ -8,8 +8,7 @@
       "__id__": 1
     },
     "optimizationPolicy": 0,
-    "persistent": false,
-    "asyncLoadAssets": false
+    "persistent": false
   },
   {
     "__type__": "cc.Node",
@@ -65,6 +64,7 @@
       "y": 1,
       "z": 1
     },
+    "_mobility": 0,
     "_layer": 33554432,
     "_euler": {
       "__type__": "cc.Vec3",
@@ -113,6 +113,7 @@
       "y": 0.1,
       "z": 1
     },
+    "_mobility": 0,
     "_layer": 33554432,
     "_euler": {
       "__type__": "cc.Vec3",
@@ -201,7 +202,10 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "43arylXvhEo6v3TDIetKSk"
+    "fileId": "43arylXvhEo6v3TDIetKSk",
+    "instance": null,
+    "targetOverrides": null,
+    "nestedPrefabInstanceRoots": null
   },
   {
     "__type__": "cc.Node",
@@ -242,6 +246,7 @@
       "y": 0.1,
       "z": 1
     },
+    "_mobility": 0,
     "_layer": 33554432,
     "_euler": {
       "__type__": "cc.Vec3",
@@ -330,7 +335,10 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "595XtnVK5F77ne0Xk2ypaW"
+    "fileId": "595XtnVK5F77ne0Xk2ypaW",
+    "instance": null,
+    "targetOverrides": null,
+    "nestedPrefabInstanceRoots": null
   },
   {
     "__type__": "cc.Node",
@@ -371,6 +379,7 @@
       "y": 0.25,
       "z": 1
     },
+    "_mobility": 0,
     "_layer": 33554432,
     "_euler": {
       "__type__": "cc.Vec3",
@@ -459,7 +468,10 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "0edXxIhmBNHIoQ0+gTQm3/"
+    "fileId": "0edXxIhmBNHIoQ0+gTQm3/",
+    "instance": null,
+    "targetOverrides": null,
+    "nestedPrefabInstanceRoots": null
   },
   {
     "__type__": "cc.Node",
@@ -500,6 +512,7 @@
       "y": 0.22,
       "z": 1
     },
+    "_mobility": 0,
     "_layer": 33554432,
     "_euler": {
       "__type__": "cc.Vec3",
@@ -588,7 +601,10 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "6aDkOPlF5HH68X5VHi0Gf/"
+    "fileId": "6aDkOPlF5HH68X5VHi0Gf/",
+    "instance": null,
+    "targetOverrides": null,
+    "nestedPrefabInstanceRoots": null
   },
   {
     "__type__": "cc.UITransform",
@@ -659,7 +675,7 @@
     "fileId": "e816/8kl9Kj5wW2sA0qHMM"
   },
   {
-    "__type__": "e42bburTgFPSKc1aNx6amQ7",
+    "__type__": "a9c74BT+qdFt5wt7ofkYpDL",
     "_name": "",
     "_objFlags": 0,
     "node": {
@@ -701,7 +717,7 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "395ZuFLH1ErJNRG0rKFnS7"
+    "fileId": "f1P55XHvpP3ZgtslBvUiiR"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -711,6 +727,8 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "c46/YsCPVOJYA4mWEpNYRx"
+    "fileId": "c46/YsCPVOJYA4mWEpNYRx",
+    "instance": null,
+    "targetOverrides": null
   }
 ]

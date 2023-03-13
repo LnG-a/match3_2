@@ -12,7 +12,7 @@ import {
 import { m3_MainGame } from "./m3_MainGame";
 const { ccclass, property } = _decorator;
 
-@ccclass("Gem")
+@ccclass("m3_Gem")
 export class Gem extends Component {
   @property({ type: SpriteFrame })
   private blue = null;
@@ -34,7 +34,7 @@ export class Gem extends Component {
 
   private gemTypes: Array<SpriteFrame> = null;
 
-  static readonly DEFAULT_VEL = 4;
+  static readonly DEFAULT_VEL = 100;
   static readonly g: number = 0.1;
   static readonly ANGLE: number = 2;
   static readonly MAX_DISTANCE: number = 10;
@@ -232,7 +232,6 @@ export class Gem extends Component {
   }
 
   onDestroy() {
-    console.log("destroy");
     this.node.off(Node.EventType.TOUCH_START, null, this.node);
   }
 

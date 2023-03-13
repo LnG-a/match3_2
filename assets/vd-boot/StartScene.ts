@@ -35,9 +35,8 @@ export class StartScene extends Component {
 
             log("@@@ loadScene error: " + this.sceneName);
           } else {
-            console.log("CHECKPOINT6");
-
             director.runScene(scene);
+            console.log("CHECKPOINT6");
           }
         });
       }

@@ -28,7 +28,8 @@ export class m3_MainGame extends Component {
   static readonly TYPE = 5;
   static readonly BASE_Y =
     m3_MainGame.OFFSET_Y - 40 * (m3_MainGame.BOARD_HEIGHT - 1);
-  private print: boolean = false;
+  private outMoveCount: number = 0;
+  private timeCount: number = 0;
 
   board: number[][] = new Array();
 
@@ -37,11 +38,16 @@ export class m3_MainGame extends Component {
   }
 
   update(deltaTime: number) {
-    if (this.canMakeMove()) this.checkMatchAuto(null);
-    if (this.checkOutOfMoves()) {
-      console.log("OUT OF MOVES");
+    // if (this.canMakeMove()) this.checkMatchAuto(null);
+    // if (this.checkOutOfMoves()) this.startGame();
+    if (this.canMakeMove()) {
+      this.timeCount++;
+      if (this.checkOutOfMoves()) {
+        this.outMoveCount++;
+      }
       this.startGame();
     }
+    console.log(this.timeCount, this.outMoveCount);
   }
 
   switchGem(firstGem: Node, direction: number) {

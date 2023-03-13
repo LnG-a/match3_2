@@ -8,9 +8,9 @@ const { ccclass, property } = _decorator;
 @ccclass("m3_Scene")
 export class m3_Scene extends Component {
   onLoad() {
+    log("@ _Scene: onLoad  !!!");
     console.log("CHECKPOINT 0 ");
 
-    log("@ _Scene: onLoad  !!!");
     let bundle = assetManager.getBundle("bundle_" + m3_Config.GAME_NAME);
     if (bundle) {
       this.node.addComponent(VDScreenManager);
